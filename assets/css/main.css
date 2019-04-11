@@ -1536,6 +1536,19 @@ input, select, textarea {
 				opacity: 1;
 			}
 
+			#main article .bio_list {
+				display: flex;
+				flex-wrap: wrap;
+			}
+			
+			#main article .bio_list ul {
+				list-style: none;
+			}
+
+			#main article .bio_list ul li {
+				float: left;
+			}
+
 			#main article .close {
 				display: block;
 				position: absolute;
