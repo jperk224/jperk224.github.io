@@ -1576,21 +1576,44 @@ input, select, textarea {
 					background-color: rgba(255, 255, 255, 0.175);
 				}
 
-				#main article .container {
+				#main article .project_container {
 					display: flex;
 					flex-wrap: wrap;
-    				justify-content: center;
+					justify-content: center;
+					margin-bottom: 15px;
 				}
 
-				#main article .container img {
+				#main article .project_container a {
+					border-bottom: none;
+				}
+
+				#main article .project_container img {
 					height: 150px;
 					width: 150px;
 					margin: 5px;
 					transition: all 0.5s
 				}
 
-				#main article .container img:hover {
+				#main article .project_container img:hover {
 					transform: scale(1.1);
+				}
+
+				#main article .project_sub {
+					display: flex;
+					flex-direction: column;
+    				/* justify-content: center; */
+				}
+
+				#main article .project_sub a,p {
+					text-align: center;
+				}
+
+				.project_sub_title {
+					text-align: center;
+				}
+
+				.project_sub_title p {
+					margin: 0px;
 				}
 
 		@media screen and (max-width: 736px) {
